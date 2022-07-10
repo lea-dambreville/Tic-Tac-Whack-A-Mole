@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Whack-a-mole</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h1>Tic-Tac-Whack-a-Mole</h1>
+    <p>You win the game if you are able to whack 3 moles in a row under 15-seconds.</p>
+    <p id="two">You will be told <u>after</u> the time is over whether or not you won the game.</p>
+
+    <p>Time-Left: <span id="time-left"></span></p>
+    <div class="announce"></div>
+
+    <div class="container">
+        <div class="tile" id="0"></div>
+        <div class="tile" id="1"></div>
+        <div class="tile" id="2"></div>
+        <div class="tile" id="3"></div>
+        <div class="tile" id="4"></div>
+        <div class="tile" id="5"></div>
+        <div class="tile" id="6"></div>
+        <div class="tile" id="7"></div>
+        <div class="tile" id="8"></div>
+    </div>
+
+    <button onclick="document.location.reload(true)" id="reset">Reset</button>
+
+</body>
+</html>
