@@ -67,7 +67,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateBoard() {
-        if (hitPosition != null) {
+        if (hitPosition !== null) {
             board[hitPosition] = 'X'
         }
     }
